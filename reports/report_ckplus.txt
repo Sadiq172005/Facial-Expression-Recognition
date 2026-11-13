@@ -1,0 +1,45 @@
+=== ckplus test set (183 images) ===
+
+[cnn] accuracy = 0.9344
+              precision    recall  f1-score   support
+
+       angry      0.842     0.667     0.744        24
+     disgust      0.868     1.000     0.930        33
+        fear      0.667     1.000     0.800         6
+       happy      1.000     1.000     1.000        48
+         sad      1.000     0.733     0.846        15
+    surprise      0.983     1.000     0.991        57
+
+    accuracy                          0.934       183
+   macro avg      0.893     0.900     0.885       183
+weighted avg      0.939     0.934     0.932       183
+
+
+[svm] accuracy = 0.9180
+              precision    recall  f1-score   support
+
+       angry      0.857     0.750     0.800        24
+     disgust      0.917     1.000     0.957        33
+        fear      0.600     1.000     0.750         6
+       happy      1.000     1.000     1.000        48
+         sad      1.000     0.400     0.571        15
+    surprise      0.919     1.000     0.958        57
+
+    accuracy                          0.918       183
+   macro avg      0.882     0.858     0.839       183
+weighted avg      0.928     0.918     0.910       183
+
+
+[cnn+svm] accuracy = 0.9180
+              precision    recall  f1-score   support
+
+       angry      0.857     0.750     0.800        24
+     disgust      0.917     1.000     0.957        33
+        fear      0.600     1.000     0.750         6
+       happy      1.000     1.000     1.000        48
+         sad      1.000     0.400     0.571        15
+    surprise      0.919     1.000     0.958        57
+
+    accuracy                          0.918       183
+   macro avg      0.882     0.858     0.839       183
+weighted avg      0.928     0.918     0.910       183
