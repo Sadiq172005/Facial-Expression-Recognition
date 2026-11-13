@@ -1,0 +1,13 @@
+{
+  "ckplus_test_accuracy": 0.9344262295081968,
+  "ckplus_test_size": 183,
+  "classes": [
+    "angry",
+    "disgust",
+    "fear",
+    "happy",
+    "sad",
+    "surprise",
+    "neutral"
+  ]
+}
